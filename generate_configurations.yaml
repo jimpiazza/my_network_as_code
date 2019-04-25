@@ -5,8 +5,8 @@
    gather_facts: no
    tasks:
      - file:
-       paths: configs/
-       state: directory
+         path: configs/
+         state: directory
  - name: Generate IOS-XE Router Configurations
    connection: local
    hosts: cisco-ios-xe-routers
