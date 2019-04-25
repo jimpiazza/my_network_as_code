@@ -5,10 +5,10 @@ features:
 
 l2_vlans: {
  '1000': {
- 'name': 'routing_to_acme_sea_asa1'
+     'name': 'routing_to_acme_sea_asa1'
  },
  '1001': {
- 'name:' 'my_new_vlan'
+     'name': 'my_new_vlan'
  }
 }
 
