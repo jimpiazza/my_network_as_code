@@ -14,7 +14,7 @@ node {
     }
 
     stage ('Unit Testing') {
-        sh 'ansible-playbook depoy_configurations.yaml --syntax-check'
+        sh 'ansible-playbook deploy_configurations.yaml --syntax-check'
     }
 
     stage ('Deploy Configurations to Dev') {
